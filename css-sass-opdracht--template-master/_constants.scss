@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,500,700");
+
+$color_light: #c0eea9;
+$color_highlight: #ecffe9;
+$padding: 20px;
+
+@mixin hero--styling {
+    max-width: 700px;
+    text-align: center;
+    padding: $padding;
+}
+
+@mixin featured--text{
+    text-align: justify;
+    padding: $padding;
+    line-height: 1.4em;
+}
